@@ -278,8 +278,6 @@ img {
   justify-content: center;
   gap: 24px;
 }
-.team-member-social-item {
-}
 .team-member-social-link {
   display: flex;
   align-items: center;
