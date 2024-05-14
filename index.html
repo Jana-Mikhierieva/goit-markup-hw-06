@@ -21,7 +21,7 @@
   </head>
   <body>
     <!-- =======header======= -->
-    <!-- <header class="page-header">
+    <header class="page-header">
       <div class="container header-container">
         <nav class="page-nav">
           <a class="page-logo" href="./index.html">
@@ -37,7 +37,7 @@
             <li class="menu-item"><a class="menu-link" href="">Contacts</a></li>
           </ul>
         </nav>
-        <button class="open-btn" type="button">
+        <button class="open-btn" type="button" data-modal-open>
           <svg class="burger-btn">
             <use href="./images/icons.svg#icon-burger-icon"></use>
           </svg>
@@ -57,17 +57,17 @@
           </ul>
         </address>
       </div>
-    </header> -->
+    </header>
     <main>
       <!-- ==========hero======== -->
-      <!-- <section class="hero">
+      <section class="hero">
         <div class="container hero-container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
           <button class="order-button" type="button" data-modal-open>Order Service</button>
         </div>
-      </section> -->
+      </section>
       <!-- =======benefits======== -->
-      <!-- <section class="benefits-description">
+      <section class="benefits-description">
         <div class="container">
           <h2 class="visually-hidden">Our benefits</h2>
           <ul class="benefits-list benefits-container">
@@ -121,9 +121,9 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!-- ======Our Team======== -->
-      <!--<section class="team-description">
+      <section class="team-description">
         <div class="container team-container">
           <h2 class="description-title">Our Team</h2>
           <ul class="team-list">
@@ -369,9 +369,9 @@
             </li>
           </ul>
         </div>
-      </section>-->
+      </section>
       <!-- ============Our Portfolio======== -->
-      <!-- <section class="services-desc">
+      <section class="services-desc">
         <div class="container portfolio-container">
           <h2 class="description-title">Our Portfolio</h2>
           <ul class="services-list">
@@ -552,9 +552,9 @@
           </ul>
         </div>
       </section>
-    </main> -->
+    </main> 
     <!-- ====footer====== -->
-    <!--<footer class="page-footer">
+    <footer class="page-footer">
       <div class="container footer-container">
         <div class="footer-logo-block">
           <a class="footer-logo" href="./index.html">
@@ -623,9 +623,9 @@
           </form>
         </div>
       </div>
-    </footer>-->
+    </footer>
     <!--===========================backdrop=============================-->
-    <div class="backdrop is-open" data-modal>
+    <div class="backdrop" data-modal>
       <div class="modal">
         <button class="window-close-btn" type="button" data-modal-close>
           <svg class="close-btn-icon" width="8" height="8">
@@ -723,13 +723,13 @@
           <button type="submit" class="call-request-form-btn">Send</button>
         </form>
       </div>
-    </div>
+    </div> 
     <!-- =====script js=========== -->
     <script src="./js/modal.js"></script>
     <!-- ==============mobile menu================= -->
-    <!-- <div class="mobile-menu">
+    <div class="mobile-menu" data-modal>
       <div class="container container-mobile">
-        <button class="window-close-btn" type="button">
+        <button class="window-close-btn" data-modal-close type="button">
           <svg class="close-btn-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black-18dp"></use>
           </svg>
@@ -789,6 +789,6 @@
         </div>
         </div>
       </div>
-    </div> -->
+    </div>
   </body>
 </html>
